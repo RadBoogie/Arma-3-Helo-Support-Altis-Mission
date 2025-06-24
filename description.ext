@@ -1,0 +1,187 @@
+author			= "RadBoogie";
+onLoadName		= "RadBoogie's Helo Support Altis";
+onLoadMission	= "Provide logistical air support to advancing NATO ground forces on Altis.";
+loadScreen		= "Images\splash.paa";
+overviewPicture = "Images\splash.paa";
+overviewText	= "Provide logistical air support to advancing NATO ground forces on Altis.";
+
+
+import RscText;
+import RscProgress;
+
+class Header
+{
+	gameType =  Support;	// Game type
+	minPlayers = 1;	// minimum number of players the mission supports
+	maxPlayers = 1;	// maximum number of players the mission supports
+};
+
+/*--------------------------------------------------------------------------------------------------
+
+	RESPAWN
+
+--------------------------------------------------------------------------------------------------*/
+respawn = 0;
+respawnDelay = 0;
+respawnVehicleDelay = 0;
+respawnTemplates[] = {"MenuPosition","Tickets"};
+respawnOnStart = 0;
+disabledAI = 1;
+respawnDialog = 0;
+
+
+class CfgSounds {
+    class BOOG_ArmouredSupportInbound {
+        name = "Armoured Support Inbound"; // Name for mission editor
+        sound[] = {"@a3\dubbing_f_heli\mp_groundsupport\55_armor\mp_groundsupport_55_armor_bhq_2.ogg", db+10, 1};
+        titles[] = {};
+    };
+
+    class BOOG_GroundStaffDeployGreenSmoke {
+        name = "Ground Staff Deploy Green Smoke"; // Name for mission editor
+        sound[] = {"@a3\dubbing_f_heli\showcase_slingloading\20_striderloaded\showcase_slingloading_20_striderloaded_tow_2.ogg", db+10, 1};
+        titles[] = {};
+    };
+
+    class BOOG_PackageDelivered {
+        name = "Package Delivered"; // Name for mission editor
+        sound[] = {"@a3\dubbing_f_heli\showcase_slingloading\15_ammodropped\showcase_slingloading_15_ammodropped_pil_0.ogg", db+10, 1};
+        titles[] = {};
+    };
+
+    class BOOG_CopyNovemberRTB {
+        name = "Copy November RTB"; // Name for mission editor
+        sound[] = {"@a3\dubbing_f_heli\showcase_slingloading\40_infantrydropped\showcase_slingloading_40_infantrydropped_tow_0.ogg", db+10, 1};
+        titles[] = {};
+    };
+
+    class BOOG_CASInbound {
+        name = "CAS Inbound"; // Name for mission editor
+        sound[] = {"@a3\dubbing_f_heli\mp_groundsupport\50_cas\mp_groundsupport_50_cas_bhq_2.ogg", db+10, 1};
+        titles[] = {};
+    };
+
+    class BOOG_Repair {
+        name = "Repair"; // Name for mission editor
+        sound[] = {"@A3\Sounds_F\sfx\ui\vehicles\vehicle_repair.wss", db+10, 1};
+        titles[] = {};
+    };
+
+    class BOOG_Refuel {
+        name = "Refuel"; // Name for mission editor
+        sound[] = {"@A3\Sounds_F\sfx\ui\vehicles\vehicle_refuel.wss", db+10, 1};
+        titles[] = {};
+    };  
+
+    class BOOG_Rearm {
+        name = "Rearm"; // Name for mission editor
+        sound[] = {"@A3\Sounds_F\sfx\ui\vehicles\vehicle_rearm.wss", db+10, 1};
+        titles[] = {};
+    }; 
+
+    class BOOG_Heal {
+        name = "Heal"; // Name for mission editor
+        sound[] = {"@a3\sounds_f\characters\human-sfx\02_fak1_loop.wss", db+10, 1};
+        titles[] = {};
+    }; 
+
+    class BOOG_RWR {
+        name = "RWR"; // Name for mission editor
+        sound[] = {"Sounds\rwr.ogg", db+10, 1};
+        titles[] = {};
+    }; 
+
+    class BOOG_HELO_CHECKIN {
+        name = "HELO_CHECKIN"; // Name for mission editor
+        sound[] = {"Sounds\helo_checking_in.ogg", db+5, 1};
+        titles[] = {};
+    }; 
+
+    class BOOG_HELO_BINGO_RTB {
+        name = "HELO_BINGO_RTB"; // Name for mission editor
+        sound[] = {"Sounds\helo_bingo_rtb.ogg", db+5, 1};
+        titles[] = {};
+    }; 
+
+        class BOOG_HELO_RIFLE {
+        name = "HELO_RIFLE"; // Name for mission editor
+        sound[] = {"Sounds\helo_rifle.ogg", db+5, 1};
+        titles[] = {};
+    }; 
+
+    class BOOG_JET_CHECKIN {
+        name = "JET_CHECKIN"; // Name for mission editor
+        sound[] = {"Sounds\jet_checking_in.ogg", db+5, 1};
+        titles[] = {};
+    }; 
+
+    class BOOG_JET_WINCHESTER_RTB {
+        name = "JET_WINCHESTER_RTB"; // Name for mission editor
+        sound[] = {"Sounds\jet_winchester_rtb.ogg", db+5, 1};
+        titles[] = {};
+    }; 
+
+        class BOOG_JET_RIFLE {
+        name = "JET_RIFLE"; // Name for mission editor
+        sound[] = {"Sounds\jet_rifle.ogg", db+5, 1};
+        titles[] = {};
+    }; 
+
+
+
+
+
+
+
+
+
+
+};
+
+// Armopured support is inbound
+// a3\dubbing_f_heli\mp_groundsupport\55_armor\mp_groundsupport_55_armor_bhq_2.ogg
+
+// Ground staff deploy green smoke...
+// a3\dubbing_f_heli\showcase_slingloading\20_striderloaded\showcase_slingloading_20_striderloaded_tow_2.ogg
+
+
+// Copy november RTB
+// "a3\dubbing_f_heli\showcase_slingloading\40_infantrydropped\showcase_slingloading_40_infantrydropped_tow_0.ogg"
+
+#define PROGRESS_WIDTH 0.2  // This is just an example; you can adjust as needed.
+#define PROGRESS_HEIGHT 0.025
+
+
+class RscTitles
+{
+    class BOOG_ScoreHud
+    {
+        idd = -1; // Display identifier
+        movingEnable = 0;
+        enableSimulation = 1;
+        enableDisplay = 1;
+        duration = 999999; // Duration the HUD stays on screen (forever in this case)
+        fadein = 0;
+        fadeout = 0;
+        onLoad = "uiNamespace setVariable ['BOOG_ScoreHud_Display', _this select 0];";
+        class controls
+        {
+
+
+            class ProgressBar: RscProgress
+            {
+                idc = 1001; // Control identifier
+
+                x = safeZoneX + safeZoneW - PROGRESS_WIDTH - 0.025;
+                y = safeZoneY + safeZoneH - PROGRESS_HEIGHT - 0.025;
+                
+                w = PROGRESS_WIDTH;
+                h = PROGRESS_HEIGHT;
+
+                colorFrame[] = {1,1,1,1}; // Color of the frame
+                colorBar[] = {0,0.5,0,0.7}; // Color of the bar itself, greenish here
+            };
+        };
+    };
+};
+

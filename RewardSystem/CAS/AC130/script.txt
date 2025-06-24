@@ -1,0 +1,92 @@
+Initial Contact:
+
+AC-130: "Warlock 51, this is Gunship 62, checking in as fragged, over."
+JTAC: "Gunship 62, Warlock 51, go ahead with your check-in, over."
+Check-In:
+
+AC-130: "Warlock 51, Gunship 62, flight of one AC-130, 20 miles west of BP Red, angels 12, 5 hours playtime, 
+armed with 40 mike-mike, 105 HE, full guns. Ready for tasking, over."
+JTAC: "Gunship 62, Warlock 51, copy all. I have a priority target for you, over."
+Target Information:
+
+JTAC: "Gunship 62, priority target is a mobile artillery unit currently engaging friendly forces from grid 
+12345678, marked by laser, code 1688. Cleared hot, over."
+AC-130: "Warlock 51, Gunship 62, tally target, laser on, 1688. 30 seconds to engagement, over."
+Engagement:
+
+AC-130: "Warlock 51, Gunship 62, rounds away, over."
+JTAC: "Gunship 62, Warlock 51, good effects on target. Mobile artillery destroyed, over."
+Further Tasking or RTB (Return to Base):
+
+JTAC: "Gunship 62, standby for further tasking, over."
+or
+JTAC: "Gunship 62, no further tasking. You are cleared RTB, over."
+AC-130: "Warlock 51, Gunship 62, copy all, RTB, out."
+
+
+
+Initial Contact:
+
+A-10: “Warlock 51, this is Hawg 32, checking in as fragged, over.”
+JTAC: “Hawg 32, Warlock 51, go ahead with your check-in, over.”
+Check-In:
+
+A-10: “Warlock 51, Hawg 32, flight of two A-10s, 15 miles southwest of BP Red, angels 10, 3 hours playtime, armed with MK-82s, GBU-12s, full guns. Ready for tasking, over.”
+JTAC: “Hawg 32, Warlock 51, copy all. I have a priority target for you, over.”
+Target Information:
+
+JTAC: “Hawg 32, priority target is a mechanized infantry unit at grid 12345678, marked by smoke. Cleared hot, over.”
+A-10: “Warlock 51, Hawg 32, tally target, 30 seconds to engagement, over.”
+Engagement:
+
+A-10: “Warlock 51, Hawg 32, guns, guns, guns, over.”
+JTAC: “Hawg 32, Warlock 51, good effects on target. Continue engagement, over.”
+Further Tasking or RTB (Return to Base):
+
+JTAC: “Hawg 32, standby for further tasking, over.”
+or
+JTAC: “Hawg 32, no further tasking. You are cleared RTB, over.”
+A-10: “Warlock 51, Hawg 32, copy all, RTB, out.”
+
+
+Target Confirmation and Clearance:
+
+JTAC: "Hawg 32, priority target is enemy armored vehicle at grid 12345678, marked by laser, code 1688. You are cleared hot, over."
+A-10: "Warlock 51, Hawg 32, tally target, laser on, 1688. Prepping Maverick, over."
+Weapon Release:
+
+A-10: "Warlock 51, Hawg 32, rifle (or Maverick away), over."
+(Note: "Rifle" is a common brevity code used by pilots to indicate the release of an air-to-ground missile.)
+Impact Confirmation:
+
+JTAC: "Hawg 32, Warlock 51, good effects on target. Enemy armored vehicle destroyed, over."
+A-10: "Warlock 51, Hawg 32, copy good effects, standing by for further tasking, over."
+
+
+
+Ugly 2-1, 2 ship Wipeout 15 miles southwest of bullseye angels 2, checking in for CAS as fragged, ETA 1 Mike.
+
+Ugly 2-1, guns, guns, guns.
+
+Ugly 2-1, rifle.
+
+Ugly 2-1, good kill, good kill!
+
+Ugly 2-1, winchester, we are RTB.
+
+
+
+Ambush 3-2, Blackfoot singleton inbound for CAS, checking in and looking for trade.
+
+Ambush 3-2, guns, guns, guns.
+
+Ambush 3-2, rifle.
+
+Ambush 3-2, bingo fuel, we are RTB.
+
+
+
+
+
+
+
